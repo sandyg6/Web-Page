@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url(./variables.css);
+@import url(./global.css);
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 2rem;
+}
+
+.header_area .main-main.navbar{
+    padding: 2rem 10rem;
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 600 15px/2px 'Segoe UI';
+    padding: 1.8rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .nav-item button{
+    margin-top: 10px;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .site-banner .site-title h1{
+    padding-top: 35%;
+    font-weight: 500;
+    font-size: 4rem;
+    color: #074d86;
+}
+
+.site-main .site-banner .site-title p{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 460;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px 'Segoe UI';
+}
+
+.site-main .about-area .about-title p > span{
+    display: block;
+    font-size: large;
+    padding: .5rem 0;
+}
+
+.site-main .about-area .about-title button{
+    border: none;
+    border-radius: 12px;
+    font-size: 10px;
+
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: 1rem 0;
+}
+
+.site-main .build-area{
+    padding:  5rem 5rem;
+    background:linear-gradient(45deg,#e4f8f9,whitesmoke ) ;
+}
+.site-main .build-area .build-title{
+    padding: 0 14rem;
+}
+
+.site-main .build-area .build-title h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #074d86;
+}
+
+.ex-btn .ex-button{
+    margin-top: 10px;
+    position: relative;
+    padding: 0 35rem;
+}
+.site-main .business-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .business-area .business-title{
+    padding: 0 14rem;
+}
+
+.site-main .business-area .business-title h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #074d86;
+}
+
+.site-main > .business-area .business{
+    background: rgba(248, 252, 253, 0.97);
+    padding: 2rem 0;
+    width: 20rem;
+    margin:1rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background:linear-gradient(45deg,#e4f8f9,#dffafb,whitesmoke ) ;
+}
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
+footer .container .sec h3{
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color:#074d86 ;
+}
+
+footer .container .sec p{
+    color: #555;
+}
+footer .container .sec h5{
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+footer .container .quicklinks{
+    position: relative;
+}
+footer .container .quicklinks ul li{
+    list-style:  none;
+}
+footer .container .quicklinks ul li a{
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .copyrightText{
+    padding: 20px 20px 30px;
+    font-size: 10px;
+    color: #555;
+}

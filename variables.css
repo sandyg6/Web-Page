@@ -1,0 +1,18 @@
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    --primary-color:#92C7CF;
+    --primary-color2:#AAD7D9;
+    --title-color:#141313;
+    --text-color:#777777;
+    --border-color:#AEE1EC;
+    --gradient-color: linear-gradient(90deg, #1ba1da 0%, #78d7e8 100%);
+    --bg-color:linear-gradient(#AAD7D9,whitesmoke )
+    --shadow-color: 0px 10px 30px #B5E0DF;
+    --box-shadow:0px 10px 30px #9ec8d2;
+}
