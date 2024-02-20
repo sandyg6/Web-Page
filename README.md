@@ -1,2 +1,2 @@
 # Web-Page
-Creating a simple business webpage for a imaginary company using HTML, CSS and Bootstrap.
+Creating a simple business webpage for an imaginary company using HTML, CSS and Bootstrap.
